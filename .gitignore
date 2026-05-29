@@ -1,0 +1,22 @@
+# Vidéos
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Images
+*.jpg
+*.jpeg
+*.png
+
+# Modèles YOLO
+
+
+# Dossiers lourds
+data/
+outputs/
+
+# Fichiers temporaires
+*.tmp
+*.log
+__pycache__/
