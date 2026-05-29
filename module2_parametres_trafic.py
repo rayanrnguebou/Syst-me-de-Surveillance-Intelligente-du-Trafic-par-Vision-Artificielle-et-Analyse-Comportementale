@@ -135,7 +135,7 @@ class TrafficAnalyzer:
                 vehicles_in_zone += 1
 
                 ######### MODIFIE ICI 
-"""
+            """
             # ── Estimation vitesse ────────────────────────────
             if tid in self.prev_positions:
                 px, py, pt = self.prev_positions[tid]
@@ -168,8 +168,8 @@ class TrafficAnalyzer:
                         cls_id = track.det_class
                         self.class_counts[cls_id] += 1
                         self.crossing_times.append(current_time)
-""" 
-        ### FIN ICI 
+            """ 
+            ### FIN ICI 
             # NOUVEAU 
 
             # ── Position précédente ───────────────────────────
